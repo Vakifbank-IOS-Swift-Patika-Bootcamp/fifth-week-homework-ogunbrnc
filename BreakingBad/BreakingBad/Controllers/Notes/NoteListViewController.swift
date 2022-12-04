@@ -73,7 +73,7 @@ final class NoteListViewController: BaseViewController {
     
     // MARK: UIButton Action
     @objc private func didTapAddNote() {
-        guard let noteAddingOrEditingViewController = self.storyboard?.instantiateViewController(withIdentifier: "NoteAddingOrEdditingViewController") as? NoteAddingOrEdditingViewController else {
+        guard let noteAddingOrEditingViewController = self.storyboard?.instantiateViewController(withIdentifier: "NoteAddingOrEdditingViewController") as? NoteAddingOrEditingViewController else {
                    fatalError("View Controller not found")
                }
         noteAddingOrEditingViewController.delegate = self
@@ -133,7 +133,7 @@ extension NoteListViewController: UITableViewDelegate, UITableViewDataSource {
         tableView.deselectRow(at: indexPath, animated: true)
         
         let note = notes[indexPath.row]
-        guard let noteAddingOrEditingViewController = self.storyboard?.instantiateViewController(withIdentifier: "NoteAddingOrEdditingViewController") as? NoteAddingOrEdditingViewController else {
+        guard let noteAddingOrEditingViewController = self.storyboard?.instantiateViewController(withIdentifier: "NoteAddingOrEdditingViewController") as? NoteAddingOrEditingViewController else {
                    fatalError("View Controller not found")
                }
         noteAddingOrEditingViewController.delegate = self
@@ -146,7 +146,7 @@ extension NoteListViewController: UITableViewDelegate, UITableViewDataSource {
 }
 
 // MARK: Delegate
-extension NoteListViewController: NoteAddingOrEdditingViewControllerDelegate {
+extension NoteListViewController: NoteAddingOrEditingViewControllerDelegate {
     //If new note will be added, firstly note should append to notes array and after that notesTableView should be reload.
     func didAddNote(model: EpisodeNote) {
         // If the first note was added, the noNoteLabel will be removed.

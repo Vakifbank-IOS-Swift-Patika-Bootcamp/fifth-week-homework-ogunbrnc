@@ -7,12 +7,12 @@
 
 import UIKit
 
-protocol NoteAddingOrEdditingViewControllerDelegate: AnyObject {
+protocol NoteAddingOrEditingViewControllerDelegate: AnyObject {
     func didAddNote(model: EpisodeNote)
     func didUpdateNote(model: EpisodeNote)
 }
 
-final class NoteAddingOrEdditingViewController: BaseViewController {
+final class NoteAddingOrEditingViewController: BaseViewController {
 
     //MARK: UI Components
     @IBOutlet private weak var seasonNumberTextField: UITextField!
@@ -30,7 +30,7 @@ final class NoteAddingOrEdditingViewController: BaseViewController {
     private var seasonCount: Int {
         return seasonOptions.count
     }
-    weak var delegate: NoteAddingOrEdditingViewControllerDelegate?
+    weak var delegate: NoteAddingOrEditingViewControllerDelegate?
     var note: Note?
    
     
@@ -142,7 +142,7 @@ final class NoteAddingOrEdditingViewController: BaseViewController {
 }
 
 // MARK: PickerView Extension
-extension NoteAddingOrEdditingViewController: UIPickerViewDelegate,UIPickerViewDataSource {
+extension NoteAddingOrEditingViewController: UIPickerViewDelegate,UIPickerViewDataSource {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -181,7 +181,7 @@ extension NoteAddingOrEdditingViewController: UIPickerViewDelegate,UIPickerViewD
     
 }
 
-extension NoteAddingOrEdditingViewController: ToolbarPickerViewDelegate {
+extension NoteAddingOrEditingViewController: ToolbarPickerViewDelegate {
     func didTapDone(_ picker: ToolbarPickerView) {
         if picker == seasonPickerView {
             let row = self.seasonPickerView.selectedRow(inComponent: 0)

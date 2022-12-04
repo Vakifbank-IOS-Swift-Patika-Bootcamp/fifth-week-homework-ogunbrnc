@@ -35,7 +35,7 @@
 		71C20BD729353F0E00EC61C0 /* NoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C20BD629353F0E00EC61C0 /* NoteListViewController.swift */; };
 		71C20BDC2935401B00EC61C0 /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C20BDB2935401B00EC61C0 /* NotesTableViewCell.swift */; };
 		71E473FD2935478F0035DD6C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E473FC2935478F0035DD6C /* CoreDataManager.swift */; };
-		71E47400293549BD0035DD6C /* NoteAddingOrEdditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E473FF293549BD0035DD6C /* NoteAddingOrEdditingViewController.swift */; };
+		71E47400293549BD0035DD6C /* NoteAddingOrEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E473FF293549BD0035DD6C /* NoteAddingOrEditingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,7 +68,7 @@
 		71C20BD629353F0E00EC61C0 /* NoteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewController.swift; sourceTree = "<group>"; };
 		71C20BDB2935401B00EC61C0 /* NotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
 		71E473FC2935478F0035DD6C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		71E473FF293549BD0035DD6C /* NoteAddingOrEdditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAddingOrEdditingViewController.swift; sourceTree = "<group>"; };
+		71E473FF293549BD0035DD6C /* NoteAddingOrEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAddingOrEditingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,7 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				71C20BD629353F0E00EC61C0 /* NoteListViewController.swift */,
-				71E473FF293549BD0035DD6C /* NoteAddingOrEdditingViewController.swift */,
+				71E473FF293549BD0035DD6C /* NoteAddingOrEditingViewController.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -322,7 +322,7 @@
 				71C20BA229353DC800EC61C0 /* BreakingBad.xcdatamodeld in Sources */,
 				71C20BCB29353E1300EC61C0 /* Character.swift in Sources */,
 				7125C727293A966600030584 /* ToolBarPickerView.swift in Sources */,
-				71E47400293549BD0035DD6C /* NoteAddingOrEdditingViewController.swift in Sources */,
+				71E47400293549BD0035DD6C /* NoteAddingOrEditingViewController.swift in Sources */,
 				71C20BC829353E1300EC61C0 /* CharacterQuotesViewController.swift in Sources */,
 				71C20BC629353E1300EC61C0 /* EpisodesViewController.swift in Sources */,
 				7125C72A293A99B500030584 /* ArrayExtension.swift in Sources */,
