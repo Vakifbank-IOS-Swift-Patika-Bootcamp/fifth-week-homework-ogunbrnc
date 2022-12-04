@@ -118,13 +118,24 @@ Light Mode | Dark Mode
 
 Light Mode | Dark Mode 
 :-------------------------:|:-------------------------:
-<img src="https://user-images.githubusercontent.com/48843277/205487680-673ea73c-89f7-4372-a5ef-dc24cf44d4cd.png" width="256" height="512">|<img src="https://user-images.githubusercontent.com/48843277/205487677-ee65df45-754c-460b-af06-7632d52607a0.png" width="256" height="512">
+<img src="https://user-images.githubusercontent.com/48843277/205487680-673ea73c-89f7-4372-a5ef-dc24cf44d4cd.png" width="256" height="512">|<img src="https://user-images.githubusercontent.com/48843277/205487677-ee65df45-754<img width="1470" alt="Submission" src="https://user-images.githubusercontent.com/48843277/205488299-f3f23b69-f0c4-4828-afd8-27169ae454c5.png">
+c-460b-af06-7632d52607a0.png" width="256" height="512">
 
 • Firstly, the season must be selected, the episode cannot be selected without selecting the season. When the season is selected, the PickerView where the episodes are listed is updated according to that season.
 
 Light Mode | Dark Mode 
 :-------------------------:|:-------------------------:
 <img src="https://user-images.githubusercontent.com/48843277/205488156-111c0161-154c-42d3-85d7-add1ab68ba9a.png" width="256" height="512">|<img src="https://user-images.githubusercontent.com/48843277/205488146-2d0ca33a-e755-42fc-a948-ff708d02fd48.png" width="256" height="512">
+
+# LeetCode Submissions
+
+• Two Sum - Easy
+
+• Determine if Two Strings Are Close	- Medium
+
+• Median of Two Sorted Arrays	- Hard
+
+<img width="1152" alt="Submissions" src="https://user-images.githubusercontent.com/48843277/205488317-f13af8b9-f5bd-4dbc-87c5-5653a493341a.png">
 
 
 Thank you for the feedback :)
