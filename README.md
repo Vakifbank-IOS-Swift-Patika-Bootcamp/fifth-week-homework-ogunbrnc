@@ -118,8 +118,9 @@ Light Mode | Dark Mode
 
 Light Mode | Dark Mode 
 :-------------------------:|:-------------------------:
-<img src="https://user-images.githubusercontent.com/48843277/205487680-673ea73c-89f7-4372-a5ef-dc24cf44d4cd.png" width="256" height="512">|<img src="https://user-images.githubusercontent.com/48843277/205487677-ee65df45-754<img width="1470" alt="Submission" src="https://user-images.githubusercontent.com/48843277/205488299-f3f23b69-f0c4-4828-afd8-27169ae454c5.png">
-c-460b-af06-7632d52607a0.png" width="256" height="512">
+<img src="https://user-images.githubusercontent.com/48843277/205487680-673ea73c-89f7-4372-a5ef-dc24cf44d4cd.png" width="256" height="512">|<img src="https://user-images.githubusercontent.com/48843277/205488431-ab95c68b-8355-4c29-8e27-512337910f9b.png" width="256" height="512">
+
+
 
 • Firstly, the season must be selected, the episode cannot be selected without selecting the season. When the season is selected, the PickerView where the episodes are listed is updated according to that season.
 
