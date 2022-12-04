@@ -12,12 +12,12 @@ protocol NoteAddingOrEdditingViewControllerDelegate: AnyObject {
     func didUpdateNote(model: EpisodeNote)
 }
 
-class NoteAddingOrEdditingViewController: BaseViewController {
+final class NoteAddingOrEdditingViewController: BaseViewController {
 
     //MARK: UI Components
-    @IBOutlet weak var seasonNumberTextField: UITextField!
-    @IBOutlet weak var episodeNameTextField: UITextField!
-    @IBOutlet weak var noteContentTextField: UITextField!
+    @IBOutlet private weak var seasonNumberTextField: UITextField!
+    @IBOutlet private weak var episodeNameTextField: UITextField!
+    @IBOutlet private weak var noteContentTextField: UITextField!
     
     private var seasonPickerView = ToolbarPickerView()
     private var episodePickerView = ToolbarPickerView()
@@ -92,7 +92,7 @@ class NoteAddingOrEdditingViewController: BaseViewController {
     }
     
     // MARK: UIButton Action
-    @IBAction func saveNote(_ sender: Any) {
+    @IBAction private func saveNote(_ sender: Any) {
         guard let seasonNumber = seasonNumberTextField.text,
               !seasonNumber.isEmpty,
               let episodeName = episodeNameTextField.text,
@@ -164,7 +164,8 @@ extension NoteAddingOrEdditingViewController: UIPickerViewDelegate,UIPickerViewD
         }
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent  component: Int) {
-        if pickerView == seasonPickerView {
+        if pickerView ==
+            seasonPickerView {
             selectedSeasonRow = row
             seasonNumberTextField.text = seasonOptions[row]
             // If the user ise selecting the season information for the first time, the episode selection will be active.
@@ -200,6 +201,8 @@ extension NoteAddingOrEdditingViewController: ToolbarPickerViewDelegate {
     func didTapCancel(_ picker: ToolbarPickerView) {
         if picker == seasonPickerView {
             self.seasonNumberTextField.text = nil
+            self.selectedSeasonRow = 0
+            self.episodeNameTextField.isUserInteractionEnabled = false
             self.seasonNumberTextField.resignFirstResponder()
         }
         else {

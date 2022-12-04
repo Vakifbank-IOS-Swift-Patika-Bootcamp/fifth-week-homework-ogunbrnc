@@ -7,10 +7,10 @@
 
 import UIKit
 
-class NoteListViewController: UIViewController {
+final class NoteListViewController: BaseViewController {
 
     //MARK: UI Components
-    @IBOutlet weak var notesTableView: UITableView!
+    @IBOutlet private weak var notesTableView: UITableView!
     private let floatingActionButton: UIButton = {
         let floatingButton = UIButton()
         floatingButton.translatesAutoresizingMaskIntoConstraints = false
