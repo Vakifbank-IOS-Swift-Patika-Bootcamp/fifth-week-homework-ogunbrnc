@@ -121,12 +121,19 @@ Light Mode | Dark Mode
 <img src="https://user-images.githubusercontent.com/48843277/205487680-673ea73c-89f7-4372-a5ef-dc24cf44d4cd.png" width="256" height="512">|<img src="https://user-images.githubusercontent.com/48843277/205488431-ab95c68b-8355-4c29-8e27-512337910f9b.png" width="256" height="512">
 
 
-
 • Firstly, the season must be selected, the episode cannot be selected without selecting the season. When the season is selected, the PickerView where the episodes are listed is updated according to that season.
 
 Light Mode | Dark Mode 
 :-------------------------:|:-------------------------:
 <img src="https://user-images.githubusercontent.com/48843277/205488156-111c0161-154c-42d3-85d7-add1ab68ba9a.png" width="256" height="512">|<img src="https://user-images.githubusercontent.com/48843277/205488146-2d0ca33a-e755-42fc-a948-ff708d02fd48.png" width="256" height="512">
+
+• If the note is to be updated, the old note must be modified. Otherwise, a warning will be displayed and the update will not be allowed.
+
+
+Light Mode | Dark Mode 
+:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/48843277/205514390-a7b9bffb-6e6b-4161-a6af-bd40bdce4655.png" width="256" height="512">|<img src="https://user-images.githubusercontent.com/48843277/205514372-2266759c-2908-442f-beaf-0416729a250e.png" width="256" height="512">
+
 
 # LeetCode Submissions
 
